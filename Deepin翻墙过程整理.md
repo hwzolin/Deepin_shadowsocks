@@ -69,15 +69,15 @@ chmod +x shadowsocks-all.sh
 Mac我没用过所以不会，以后若是有问题，再补上。
 CentOS派的没碰，所以不知道有没有，这里重点讲下ubuntu派的linux系统问题，deepin为例：
 
-####1.安装pip3工具
+#### 1.安装pip3工具
 
     sudo apt-get install python3-pip
 
-####2.使用pip3 安装 genpac
+#### 2.使用pip3 安装 genpac
 
     pip3 install genpac
 
-####3.使用genpac生成pac文件
+#### 3.使用genpac生成pac文件
 
     ./genpac --pac-compress --pac-proxy 'SOCKS5 127.0.0.1:1080' --format pac  -o ~/auto.pac
 
@@ -90,5 +90,5 @@ CentOS派的没碰，所以不知道有没有，这里重点讲下ubuntu派的li
 
 * * *
 
-###至此，全局配置完毕，可以进行科学上网了。
+### 至此，全局配置完毕，可以进行科学上网了。
 ![成功科学上网](https://upload-images.jianshu.io/upload_images/20363181-5b15417d59c6626e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
