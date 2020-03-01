@@ -32,12 +32,16 @@ chmod +x shadowsocks-all.sh
 ```
 
 -  执行后，接下来有几部需要处理：
+1.选择服务器版本，我选择的是Go版本的
   ![选择服务器版本，我选择的是Go版本的](https://upload-images.jianshu.io/upload_images/20363181-81796ce1f4200916.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+2.设置密码
 ![设置密码](https://upload-images.jianshu.io/upload_images/20363181-22ba224316070221.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+3.设置服务器端口号，范围1-65535
 ![设置服务器端口号，范围1-65535](https://upload-images.jianshu.io/upload_images/20363181-ef47ae75c204acc0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+4.选择加密方式，建议 aes-256-cfb
 ![选择加密方式，建议 aes-256-cfb](https://upload-images.jianshu.io/upload_images/20363181-df0a3d1c8ebd33e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![设置成功](https://upload-images.jianshu.io/upload_images/20363181-68b030648888de7e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
