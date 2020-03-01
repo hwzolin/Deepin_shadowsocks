@@ -1,0 +1,2 @@
+# Deepin_shadowsocks
+Deepin翻墙及全局代理配置的过程整理
